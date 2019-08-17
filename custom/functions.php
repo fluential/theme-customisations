@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 function company_customlogo() {
         add_theme_support( 'custom-logo', array(
              'width'       => 400,
-			'height'      => 100,
+			'height'      => 120,
         ) );
 }
 add_action( 'after_setup_theme', 'company_customlogo', 11 );
